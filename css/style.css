@@ -3,11 +3,12 @@ body {
   background-color: #111111;
   font-family: "Playfair Display SC", serif;
   font-size: 30px;
+  min-width: 1500px;
 }
 
 .container {
   width: 100%;
-  max-width: 1520px;
+  min-width: 1500px;
   padding-top: 84px;
   margin: 0 auto;
 }
@@ -19,7 +20,6 @@ body {
 
 .first_block {
   margin: 0 auto;
-
   width: 100%;
   height: 100vh;
 }
@@ -423,11 +423,6 @@ i {
   color: #b69b67;
   border: solid #b69b67;
   border-width: 0 1px 1px 0;
-  display: inline-block;
-  margin-left: 10px;
-  margin-bottom: 2.5px;
-  padding: 5px;
-  transform: rotate(45deg);
   transition: 0.8s;
 }
 /* CARDS PORTFOLIO */
@@ -1084,4 +1079,368 @@ i {
   font-size: 18px;
   text-align: center;
   color: #b4b4b4;
+}
+/* ADAPTIVE */
+
+@media only screen and (max-width: 1200px) {
+  .header__text {
+    font-size: calc(60px + 50%);
+  }
+  .header::after {
+    content: "";
+    display: block;
+    width: 190px;
+    margin: 0 auto;
+    padding-left: 300px;
+    border-top: 2px solid #b69b67;
+  }
+  .second_block{
+    padding-top:250px;
+  }
+  .section__tittle{
+    font-size: 60px;
+  }
+  .image_pos{
+    width: 22%;
+  }
+  .title h2{
+    font-size: 60px;
+  }
+  .text-scroll h3{
+    font-size: 28px;
+  }
+  i {
+    padding: 16px;
+  }
+  .down-a{
+    margin-top: -20px;
+  }
+  .menu__services_text{
+    font-size: 24px;
+  }
+  .web-text{
+    font-size:14px;
+  }
+  .logo-text{
+    font-size:14px;
+  }
+  .brand-text{
+    font-size:14px;
+  }
+  .ui-text{
+    font-size:14px;
+  }
+  .graphic-text{
+    font-size:14px;
+  }
+  .third_tittle {
+    font-size: 60px;
+    margin-left: 588px;
+  }
+  .fourth_block{
+    margin-top: 144px;
+  }
+  .feedb {
+    font-size: 60px;
+  }
+  .contact{
+    font-size: 60px;
+  }
+  .fifth_header{
+    font-size: 40px;
+  }
+  .media_txt {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .header__text {
+    font-size: calc(60px + 100%);
+  }
+  .header::after {
+    content: "";
+    display: block;
+    width: 280px;
+    margin: 0 auto;
+    padding-left: 300px;
+    border-top: 2px solid #b69b67;
+  }
+  .header_s_text{
+    font-size: 24px;
+  }
+  .image_pos{
+    width: 25%;
+  }
+  .second_block{
+    padding-top:350px;
+  }
+  .section__tittle{
+    font-size: 70px;
+  }
+  .text-scroll{
+    display: none;
+  }
+  .down-a{
+    display: none;
+  }
+  .menu__services_text{
+    font-size: 35px;
+  }
+  .web-text{
+    font-size:21px;
+  }
+  .logo-text{
+    font-size:21px;
+  }
+  .logo span img{
+    top: 100px;
+    left: 600px;
+  }
+  .brand-text{
+    font-size:21px;
+  }
+  .ui-text{
+    font-size:21px;
+  }
+  .graphic-text{
+    font-size:21px;
+  }
+  .third_tittle {
+    font-size: 70px;
+    margin-left: 560px;
+  }
+  .cat-text{
+    font-size: 28px;
+    width: 400px;
+  }
+  .cat-menu{
+    width: 210px;
+    height: 43px;
+  }
+  .card_tittle_f{
+    font-size: 30px;
+    max-width: 295px;
+  }
+  .card_text_f{
+    font-size: 20px;  
+  }
+  .card_text-s_f{
+    font-size: 18px;
+    top: -485px;
+  }
+  .more_f{
+    top: -652px;
+  }
+  .see-full{
+    top: -730px;
+  }
+  .card_tittle_s{
+    font-size: 30px;
+    max-width: 324px;
+  }
+  .card_text_s{
+    font-size: 20px;
+  }
+  .card_text-s_s{
+    font-size: 18px;
+    top: -485px;
+  }
+  .more_s{
+    top: -652px;
+  }
+  .see-full_s{
+    top: -724px;
+  }
+  .card_tittle_t{
+    font-size: 30px;
+    max-width: 324px;
+  }
+  .card_text_t{
+    font-size: 20px;
+    top: -500px;
+  }
+  .card_text-t_t{
+    font-size: 18px;
+    top: -500px;
+    left: 579px;
+  }
+  .more_t{
+    top: -652px;
+  }
+  .see-full_t{
+    top: -730px;
+  }
+  .card_text-f_f{
+    font-size: 18px;
+    top: -485px;
+    left: 590px;
+  }
+  .see-full_f{
+    top: -725px;
+  }
+  .feedb{
+    font-size: 70px;
+  }
+  .contact{
+    font-size: 70px;
+  }
+  .txt1{
+    font-size: 25px;
+  }
+  .txt2{
+    font-size: 25px;
+  }
+  .txt3{
+    font-size: 25px;
+  }
+  .form input[type="email"]{
+    font-size: 25px;
+  }
+  .fifth_header{
+    font-size: 60px;
+  }
+  .media_txt{
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .menu__services_text{
+    font-size: 38px;
+  }
+  .web-text{
+    font-size:25px;
+  }
+  .logo-text{
+    font-size:25px;
+  }
+  .logo span img{
+    top: 100px;
+    left: 600px;
+  }
+  .brand-text{
+    font-size:25px;
+  }
+  .ui-text{
+    font-size:25px;
+  }
+  .graphic-text{
+    font-size:25px;
+    max-width: 800px;
+  }
+  .branding span img{
+    top: 5px;
+  }
+  .cat-text{
+    font-size: 35px;
+    width: 400px;
+    margin: -1px auto;
+  }
+  .cat-menu{
+    width: 266px;
+  }
+  .arrow-downa{
+    margin-left: 15px;
+    margin-bottom: 6.5px;
+    padding: 9px;
+  }
+  .card_tittle_f {
+    font-size: 34px;
+    max-width: 295px;
+  }
+  .card_text_f {
+    font-size: 24px;
+    top: -524px;
+ }
+.card_text-s_f {
+  font-size: 22px;
+  top: -547px;
+  left: 571px;
+ }
+ .more_f {
+  top: -707px;
+ }
+ .see-full {
+  top: -786px;
+ }
+ .card_tittle_s {
+  font-size: 34px;
+  max-width: 295px;
+}
+.card_text_s {
+  font-size: 24px;
+  top: -524px;
+}
+.card_text-s_s {
+font-size: 22px;
+top: -547px;
+left: 571px;
+}
+.more_s {
+  top: -711px
+}
+.see-full_s {
+top: -786px;
+}
+.card_tittle_t {
+  font-size: 34px;
+  max-width: 295px;
+}
+.card_text_t {
+  font-size: 24px;
+  top: -524px;
+}
+.card_text-t_t {
+font-size: 22px;
+top: -572px;
+left: 554px;
+}
+.more_t {
+  top: -735px;
+}
+.see-full_t {
+  top: -812px;
+ }
+ .card_text-f_f {
+  font-size: 22px;
+  top: -544px;
+  left: 550px;
+  max-width: 150px;
+}
+.see-full_f {
+  top: -775px;
+}
+.feed_txt1{
+  font-size: 25px;
+}
+.feed_txt2{
+  font-size: 25px;
+}
+.feed_txt3{
+  font-size: 25px;
+}
+.left-div img{
+  width: 13%;
+}
+.form input[type="text"], .form input[type="email"], .form input[type="text"], .form input[type="submit"]{
+  padding: 29px;
+}
+.form input[type="submit"]{
+  font-size: 45px;
+  height: 103px;
+}
+.fifth_block {
+  padding-top: 183px;
+}
+.info_phone{
+  font-size: 27px;
+}
+.info_t{
+  font-size: 38px;
+}
+.overline_info{
+  width: 123px;
+}
+.media_txt{
+  font-size: 20px;
+}
 }
