@@ -1,0 +1,56 @@
+html,
+body {
+  font-family: "Playfair Display SC", serif;
+  font-size: 30px;
+  background-image: url(background.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+body:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  z-index: 2;
+}
+
+.text{
+  z-index: 3;
+  position: relative;
+  text-align: center;
+}
+.timer{
+  z-index: 3;
+  position: relative;
+  opacity: 1;
+  background: #999;
+  border-radius: 20px;
+  box-shadow: 4px 8px 40px rgba(8, 24, 111, 0.2);
+}
+.timer_content{
+  z-index: 3;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-family: "Playfair Display SC", serif;
+  font-size: 72px;
+}
+.timer_val{
+  z-index: 3;
+  position: relative;
+  background: #1111;
+  border-radius: 10px;
+  box-shadow: 4px 8px 40px rgba(8, 24, 111, 0.2);
+  font-family: "Ubuntu", sans-serif;
+  color: #5d71dd;
+}
+.separator{
+  z-index: 3;
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  color: #5d71dd;
+  margin: 0 25px;
+}
