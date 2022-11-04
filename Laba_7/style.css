@@ -1,0 +1,133 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(background.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.login {
+    position: relative;
+    height: 560px;
+    width: 405px;
+    margin: auto;
+    padding: 60px 60px;
+    background: #222;
+    box-shadow: 0px 30px 60px -5px #000;
+    border-radius: 6px;
+}
+form {
+    padding-top: 60px;
+}
+
+.active{
+    border-bottom: 2px solid #1161ed;
+}
+
+h2{
+    padding-left: 12px;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-weight: 100;
+    color: #fff;
+}
+.logo-wunu img{
+    width: 50%;
+}
+.header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+h2:first-child{
+    padding-left: 0px;
+}
+
+span{
+    text-transform: uppercase;
+    font-size: 12px;
+    opacity: 0.4;
+    display: inline-block;
+    position: relative;
+    top: -70px;
+    left: 10px;
+    transition: all 0.5s ease-in-out;
+    color: #fff;
+}
+.text{
+    width: 100%;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0,1);
+    border: 2px solid rgba(255, 255, 255, 0);
+    margin-top: 15px;
+    transition: all 0.2s ease-in-out;
+}
+
+input{
+    color: #1161ed;
+    font-size: 21px;
+    padding: 7px;
+}
+input.error{
+    border-color:red;
+}
+label{
+    display: inline-block;
+    padding-top: 10px;
+    color: #fff;
+}
+.checkbox__label {
+    user-select: none;
+}
+.checkbox__input.error + .checkbox__label {
+    color: red;
+}
+
+
+.password{
+    position: relative;
+    
+}
+.password__btn{
+    position: absolute;
+    top: 26px;
+    left: 370px;
+    cursor: pointer;
+}
+.password__btn img{
+    width: 100%;
+}
+.sign {
+    background-color: #1161ed;
+    color:#fff;
+    width: 100%;
+    padding: 10px 20px;
+    display: block;
+    height: 39px;
+    border-radius: 20px;
+    margin-top: 30px;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.sign:hover {
+    background-color: #1e53b0;
+    box-shadow: 0px 10px 1  0px -5px #000;
+}
+hr {
+    border: 1px solid rgba(255, 255, 255, 0);
+    top: 85px;
+    position: relative;
+}
+a{
+    text-align: center;
+    display: block;
+    top: 120px;
+    position: relative;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0,2);
+}   
